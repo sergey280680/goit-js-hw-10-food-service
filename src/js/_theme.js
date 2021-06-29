@@ -5,6 +5,13 @@ const Theme = {
 
 const themeToggle = document.querySelector('#theme-switch-toggle');
 
+// проверка на наличие класса темной или свелой темы у body 
+// если не присутствует ни одна из тем то добавляем светлую тему
+if (document.body.classList.contains(Theme.LIGHT || Theme.DARK)) {
+  return;
+}
+document.body.classList.add(Theme.LIGHT);
+
 if (localStorage.getItem('theme') === Theme.DARK) {
   document.body.classList.add(Theme.DARK);
   themeToggle.checked = true;
