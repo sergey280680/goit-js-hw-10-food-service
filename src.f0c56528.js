@@ -18,10 +18,10 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"handlebars/dist/handlebars.runtime":"pAws"}],"c0sm":[function(require,module,exports) {
 "use strict";var e=n(require("../json/menu.json")),u=n(require("../templates/menu.hbs"));function n(e){return e&&e.__esModule?e:{default:e}}const t=document.querySelector(".js-menu");t.innerHTML=(0,u.default)(e.default);
 },{"../json/menu.json":"gE54","../templates/menu.hbs":"dgbP"}],"rg6k":[function(require,module,exports) {
-const e={LIGHT:"light-theme",DARK:"dark-theme"},t=document.querySelector("#theme-switch-toggle");function c(e,t){document.body.classList.remove(t),document.body.classList.add(e),localStorage.setItem("theme",e)}function o(o){t.checked?c(e.DARK,e.LIGHT):c(e.LIGHT,e.DARK)}localStorage.getItem("theme")===e.DARK&&(document.body.classList.add(e.DARK),t.checked=!0),t.addEventListener("change",o);
+const e={LIGHT:"light-theme",DARK:"dark-theme"},t=document.querySelector("body"),c=document.querySelector("#theme-switch-toggle");function s(e,c){t.classList.remove(c),t.classList.add(e),localStorage.setItem("theme",e)}function a(t){c.checked?s(e.DARK,e.LIGHT):s(e.LIGHT,e.DARK)}localStorage.getItem("theme")===e.DARK?(t.classList.add(e.DARK),c.checked=!0):t.classList.add(e.LIGHT),c.addEventListener("change",a);
 },{}],"d6sW":[function(require,module,exports) {
 "use strict";require("./_menu"),require("./_theme");
 },{"./_menu":"c0sm","./_theme":"rg6k"}],"Focm":[function(require,module,exports) {
 "use strict";require("@fortawesome/fontawesome-free/js/brands"),require("@fortawesome/fontawesome-free/js/solid"),require("@fortawesome/fontawesome-free/js/fontawesome"),require("./sass/main.scss"),require("./js/main");
 },{"@fortawesome/fontawesome-free/js/brands":"akdV","@fortawesome/fontawesome-free/js/solid":"nDWT","@fortawesome/fontawesome-free/js/fontawesome":"A9bg","./sass/main.scss":"clu1","./js/main":"d6sW"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.5417414c.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.f0c56528.js.map
