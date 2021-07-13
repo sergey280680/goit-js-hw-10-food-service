@@ -24,4 +24,4 @@ const e={LIGHT:"light-theme",DARK:"dark-theme"},t=document.querySelector("body")
 },{"./_menu":"c0sm","./_theme":"rg6k"}],"Focm":[function(require,module,exports) {
 "use strict";require("@fortawesome/fontawesome-free/js/brands"),require("@fortawesome/fontawesome-free/js/solid"),require("@fortawesome/fontawesome-free/js/fontawesome"),require("./sass/main.scss"),require("./js/main");
 },{"@fortawesome/fontawesome-free/js/brands":"akdV","@fortawesome/fontawesome-free/js/solid":"nDWT","@fortawesome/fontawesome-free/js/fontawesome":"A9bg","./sass/main.scss":"clu1","./js/main":"d6sW"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.f0c56528.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.a1e66327.js.map
