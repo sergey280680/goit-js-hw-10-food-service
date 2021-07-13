@@ -26,3 +26,5 @@ function changeThemeToggle(e) {
 }
 
 themeToggle.addEventListener('change', changeThemeToggle);
+
+
